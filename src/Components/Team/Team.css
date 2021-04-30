@@ -1,0 +1,28 @@
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #695e3d;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: rgb(77, 50, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 50, 20, 1) 4%,
+    rgba(147, 96, 38, 1) 57%,
+    rgba(147, 96, 38, 1) 58%,
+    rgba(147, 96, 38, 1) 62%,
+    rgba(120, 64, 0, 1) 85%,
+    rgba(69, 55, 0, 1) 100%
+  );
+  color: #fff;
+  text-decoration: none;
+}
