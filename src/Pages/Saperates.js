@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from '../Components/Navbar/narbar'
-import Team from '../Components/Team/Team'
+import Saperates from '../Components/Saperates/Saperates'
 import Footer from '../Components/Footer/Footer'
 import Whatsapp from '../Components/Whatsapp/Whatsapp'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,18 +10,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Box = styled.div`
 `
 
-function Teams() 
+function Cat4() 
 {
     return (
       <Box>
                 <Whatsapp></Whatsapp>
       <Navbar/>
     
-    <Team></Team>
+    <Saperates></Saperates>
     
      <Footer></Footer>
       </Box>
     );
   }
   
-  export default Teams;
+  export default Cat4;

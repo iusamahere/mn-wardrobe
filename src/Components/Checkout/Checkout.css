@@ -1,17 +1,14 @@
-.px-lg-0 {
-  background: rgb(36, 26, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(36, 26, 0, 0.18000703699448528) 0%,
-    rgba(164, 90, 15, 0.11558126668636204) 52%,
-    rgba(102, 67, 1, 0.19121151878720233) 100%
-  );
-  min-height: 100vh;
+#person {
+  color: rgb(82, 36, 10);
 }
-.lead {
-  color: #5c3716;
+#person:hover {
+  color: tomato;
 }
-.btn {
+#note {
+  color: red;
+  font-size: 10px;
+}
+#btn {
   color: rgb(0, 0, 0);
   background: rgb(36, 26, 0);
   background: linear-gradient(
@@ -21,7 +18,7 @@
     rgba(102, 67, 1, 0.19121151878720233) 100%
   );
 }
-.btn:hover {
+#btn:hover {
   color: rgb(255, 255, 255);
   background: rgb(77, 50, 20);
   background: linear-gradient(
@@ -33,4 +30,28 @@
     rgba(120, 64, 0, 1) 85%,
     rgba(69, 55, 0, 1) 100%
   );
+}
+@media screen and (max-width: 400px) {
+  .box {
+    width: 50%;
+  }
+  .popup {
+    width: 70%;
+  }
+  .popup .close {
+    top: 40px;
+    margin-right: 13px;
+  }
+}
+#cartbox {
+  color: rgb(82, 36, 10);
+}
+#cartbox:hover {
+  color: tomato;
+}
+#cartprice {
+  color: rgb(0, 0, 0);
+}
+#cartprice:hover {
+  color: rgb(0, 206, 17);
 }

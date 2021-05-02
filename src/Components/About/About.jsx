@@ -2,13 +2,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import './About.css'
-const Cont = styled.div`
+const Abt = styled.div`
+
+
 
 `
 
 const Aboutus = () => {
     return(
-        <Cont>
+        <Abt>
            
     
 
@@ -16,7 +18,7 @@ const Aboutus = () => {
   <div class="container py-5">
     <div class="row h-100 align-items-center py-5">
       <div class="col-lg-6">
-        <h1 class="display-4">About us page</h1>
+        <h1 class="display-4">About us<span> page</span></h1>
         <p class="lead text-muted mb-0">Create a minimal about us page using Bootstrap 4.</p>
         <p class="lead text-muted">Snippet by <a href="https://bootstrapious.com/snippets" class="text-muted"> 
                     <u>Bootstrapious</u></a>
@@ -45,7 +47,7 @@ const Aboutus = () => {
     </div>
   </div>
 </div>
-        </Cont> 
+        </Abt> 
     )
 }
 export default Aboutus;

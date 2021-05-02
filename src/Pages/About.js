@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Navbar from '../Components/Navbar/narbar'
 import About from '../Components/About/About'
 import Footer from '../Components/Footer/Footer'
-
+import Whatsapp from '../Components/Whatsapp/Whatsapp'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -14,7 +14,7 @@ function Aboutus()
 {
     return (
       <Box>
-        
+                <Whatsapp></Whatsapp>
       <Navbar/>
     
     <About></About>

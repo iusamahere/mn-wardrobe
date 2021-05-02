@@ -1,40 +1,19 @@
-#viewmore {
-  color: rgb(0, 0, 0);
-  float: right;
-  text-decoration: none;
-}
-#viewmore:hover {
-  color: rgb(87, 74, 2);
-  float: right;
-  text-decoration: none;
-
-  transition: all 0.8s;
-}
-#viewmore {
-  animation: blinker 0.5s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0.3;
-  }
-}
-
 h3 {
   text-align: center;
+  padding: 20px;
 }
 .container h3 span {
   color: #5c3716;
   font-size: 68px;
+  transition: all 0.8s;
 }
-h3:hover {
-  color: #5c3716;
-  text-align: center;
-}
+
 .container h3 span:hover {
   color: tomato;
-  font-size: 68px;
+  letter-spacing: 2px;
+  transition: all 0.8s;
 }
+
 .container h3 {
   color: #000000;
   font: normal 36px "Cookie", cursive;
@@ -113,16 +92,6 @@ h3:hover {
 .product-grid3:hover .title {
   opacity: 0;
 }
-.product-grid3 .product-new-label {
-  animation: blinker 0.5s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0.7;
-  }
-}
-
 .product-grid3 .social li {
   display: inline-block;
 }
@@ -177,11 +146,8 @@ h3:hover {
   padding: 15px;
   text-align: left;
 }
-.product-grid3 .product-content h3 {
-  font-size: 25px;
-}
 .product-grid3 .title {
-  font-size: 20px;
+  font-size: 14px;
   text-transform: capitalize;
   margin: 0 0 7px;
   transition: all 0.3s ease 0s;

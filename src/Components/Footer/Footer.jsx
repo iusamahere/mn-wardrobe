@@ -38,7 +38,7 @@ const Footer = () => {
 				<p class="footer-links">
 					<a href="/">Home</a>
 					·
-					<a href="#">Blog</a>
+					<a href="/team">Our Team</a>
 					·
 					
 					<a href="/about">About</a>
