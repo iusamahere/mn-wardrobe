@@ -53,8 +53,8 @@ const Contact = () => {
 				</div>
 			</div>
 			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea required></textarea>
+				<div class="styled-input wide ">
+					<input  required></input>
 					<label>Message</label>
 				</div>
 			</div>
